@@ -1,4 +1,4 @@
 # react-mini-project
-# to run:
+# To run:
    - npm install
    - npm run dev

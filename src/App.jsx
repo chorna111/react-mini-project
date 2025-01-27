@@ -49,7 +49,7 @@ export default function App() {
       <MoveButtons playGame={playGame}></MoveButtons>
       
       
-      <Result moves={moves} result={result}></Result>
+      <Result result={result} moves={moves} ></Result>
       <Score score={score}></Score>
       <button className='reset-score-button' onClick={resetScore}>Reset Score</button>
     </div>

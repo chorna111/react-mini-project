@@ -1,4 +1,4 @@
-export default function Elements({playGame}){
+export default function MoveButtons({playGame}){
    return(
     <div>
         <button className='move-button' onClick={() => playGame("rock")}>

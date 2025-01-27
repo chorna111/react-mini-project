@@ -1,6 +1,6 @@
 body{
-  background-color: rgb(25,25,25);
-  color:white;
+  background-color: rgb(26, 14, 59);
+  color:rgb(131, 128, 183);
   font-family: Arial; 
   text-align: center;
 
@@ -19,8 +19,7 @@ h1{
   background-color: transparent;
   border-width: 3px;
   border-style:solid;
-  border-color:white;
-  border: 3px solid white;
+  border: 3px solid rgb(255, 255, 255);
   width:120px;
   height: 120px;
   border-radius:60px ;
@@ -42,13 +41,17 @@ h1{
 .js-moves{
   font-size: 30px
 }
-.reset-score-button,
-.auto-play-button{
-  background-color: white;
+.reset-score-button{
+  background-color: rgb(252, 226, 95);
   border: none;
   font-size:20px;
   padding: 15px 30px;
   border-radius: 5px;
   cursor:pointer;
   margin: 5px;
+}
+.reset-score-button:hover,
+.move-button:hover{
+  background-color: rgb(131, 128, 183);
+
 }
